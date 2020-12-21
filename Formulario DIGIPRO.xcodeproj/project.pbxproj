@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76B37B1473DE41D7E3F3749 /* Pods_Formulario_DIGIPRO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F0AAEDBCF65A2502D1C2EC /* Pods_Formulario_DIGIPRO.framework */; };
+		C928A04E258F2F23001B39A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A04D258F2F23001B39A2 /* AppDelegate.swift */; };
+		C928A050258F2F23001B39A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A04F258F2F23001B39A2 /* SceneDelegate.swift */; };
+		C928A055258F2F23001B39A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928A053258F2F23001B39A2 /* Main.storyboard */; };
+		C928A057258F2F24001B39A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928A056258F2F24001B39A2 /* Assets.xcassets */; };
+		C928A05A258F2F24001B39A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928A058258F2F24001B39A2 /* LaunchScreen.storyboard */; };
+		C928A064258F30C5001B39A2 /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A063258F30C5001B39A2 /* FormularioViewController.swift */; };
+		C928A067258F34BA001B39A2 /* AlertasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A066258F34BA001B39A2 /* AlertasViewController.swift */; };
+		C928A06B258F36A9001B39A2 /* FormularioLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A06A258F36A9001B39A2 /* FormularioLineCell.swift */; };
+		C9550A5F258F530C00634770 /* DatosFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9550A5E258F530C00634770 /* DatosFormulario.swift */; };
+		C9550A63258F5E7A00634770 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9550A62258F5E7A00634770 /* RealmData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11A5FC07BB4F36F7CD0BBEA4 /* Pods-Formulario DIGIPRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formulario DIGIPRO.debug.xcconfig"; path = "Target Support Files/Pods-Formulario DIGIPRO/Pods-Formulario DIGIPRO.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F0AAEDBCF65A2502D1C2EC /* Pods_Formulario_DIGIPRO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Formulario_DIGIPRO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87816E6BE7BB87B74AC396B /* Pods-Formulario DIGIPRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formulario DIGIPRO.release.xcconfig"; path = "Target Support Files/Pods-Formulario DIGIPRO/Pods-Formulario DIGIPRO.release.xcconfig"; sourceTree = "<group>"; };
+		C928A04A258F2F23001B39A2 /* Formulario DIGIPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Formulario DIGIPRO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928A04D258F2F23001B39A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C928A04F258F2F23001B39A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C928A054258F2F23001B39A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C928A056258F2F24001B39A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C928A059258F2F24001B39A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C928A05B258F2F24001B39A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C928A063258F30C5001B39A2 /* FormularioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
+		C928A066258F34BA001B39A2 /* AlertasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertasViewController.swift; sourceTree = "<group>"; };
+		C928A06A258F36A9001B39A2 /* FormularioLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioLineCell.swift; sourceTree = "<group>"; };
+		C9550A5E258F530C00634770 /* DatosFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosFormulario.swift; sourceTree = "<group>"; };
+		C9550A62258F5E7A00634770 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C928A047258F2F23001B39A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76B37B1473DE41D7E3F3749 /* Pods_Formulario_DIGIPRO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0724A0E82AC0679FC6F43AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0AAEDBCF65A2502D1C2EC /* Pods_Formulario_DIGIPRO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5DCB35905F8CEC20D7513F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11A5FC07BB4F36F7CD0BBEA4 /* Pods-Formulario DIGIPRO.debug.xcconfig */,
+				B87816E6BE7BB87B74AC396B /* Pods-Formulario DIGIPRO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C928A041258F2F23001B39A2 = {
+			isa = PBXGroup;
+			children = (
+				C928A04C258F2F23001B39A2 /* Formulario DIGIPRO */,
+				C928A04B258F2F23001B39A2 /* Products */,
+				C5DCB35905F8CEC20D7513F2 /* Pods */,
+				0724A0E82AC0679FC6F43AB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C928A04B258F2F23001B39A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C928A04A258F2F23001B39A2 /* Formulario DIGIPRO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C928A04C258F2F23001B39A2 /* Formulario DIGIPRO */ = {
+			isa = PBXGroup;
+			children = (
+				C928A04D258F2F23001B39A2 /* AppDelegate.swift */,
+				C928A04F258F2F23001B39A2 /* SceneDelegate.swift */,
+				C928A063258F30C5001B39A2 /* FormularioViewController.swift */,
+				C928A06A258F36A9001B39A2 /* FormularioLineCell.swift */,
+				C928A066258F34BA001B39A2 /* AlertasViewController.swift */,
+				C9550A5E258F530C00634770 /* DatosFormulario.swift */,
+				C9550A62258F5E7A00634770 /* RealmData.swift */,
+				C928A053258F2F23001B39A2 /* Main.storyboard */,
+				C928A056258F2F24001B39A2 /* Assets.xcassets */,
+				C928A058258F2F24001B39A2 /* LaunchScreen.storyboard */,
+				C928A05B258F2F24001B39A2 /* Info.plist */,
+			);
+			path = "Formulario DIGIPRO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C928A049258F2F23001B39A2 /* Formulario DIGIPRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C928A05E258F2F24001B39A2 /* Build configuration list for PBXNativeTarget "Formulario DIGIPRO" */;
+			buildPhases = (
+				0F4D485860BF47143B9897DF /* [CP] Check Pods Manifest.lock */,
+				C928A046258F2F23001B39A2 /* Sources */,
+				C928A047258F2F23001B39A2 /* Frameworks */,
+				C928A048258F2F23001B39A2 /* Resources */,
+				E1CFC4B8B7CFC0366CC9E1BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Formulario DIGIPRO";
+			productName = "Formulario DIGIPRO";
+			productReference = C928A04A258F2F23001B39A2 /* Formulario DIGIPRO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C928A042258F2F23001B39A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C928A049258F2F23001B39A2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C928A045258F2F23001B39A2 /* Build configuration list for PBXProject "Formulario DIGIPRO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C928A041258F2F23001B39A2;
+			productRefGroup = C928A04B258F2F23001B39A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C928A049258F2F23001B39A2 /* Formulario DIGIPRO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C928A048258F2F23001B39A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928A05A258F2F24001B39A2 /* LaunchScreen.storyboard in Resources */,
+				C928A057258F2F24001B39A2 /* Assets.xcassets in Resources */,
+				C928A055258F2F23001B39A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4D485860BF47143B9897DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Formulario DIGIPRO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CFC4B8B7CFC0366CC9E1BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Formulario DIGIPRO/Pods-Formulario DIGIPRO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Formulario DIGIPRO/Pods-Formulario DIGIPRO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Formulario DIGIPRO/Pods-Formulario DIGIPRO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C928A046258F2F23001B39A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928A04E258F2F23001B39A2 /* AppDelegate.swift in Sources */,
+				C928A067258F34BA001B39A2 /* AlertasViewController.swift in Sources */,
+				C928A06B258F36A9001B39A2 /* FormularioLineCell.swift in Sources */,
+				C9550A5F258F530C00634770 /* DatosFormulario.swift in Sources */,
+				C9550A63258F5E7A00634770 /* RealmData.swift in Sources */,
+				C928A050258F2F23001B39A2 /* SceneDelegate.swift in Sources */,
+				C928A064258F30C5001B39A2 /* FormularioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C928A053258F2F23001B39A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C928A054258F2F23001B39A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C928A058258F2F24001B39A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C928A059258F2F24001B39A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C928A05C258F2F24001B39A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C928A05D258F2F24001B39A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C928A05F258F2F24001B39A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A5FC07BB4F36F7CD0BBEA4 /* Pods-Formulario DIGIPRO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXJ7W24BC8;
+				INFOPLIST_FILE = "Formulario DIGIPRO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gustavogutierrez.Formulario-DIGIPRO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C928A060258F2F24001B39A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87816E6BE7BB87B74AC396B /* Pods-Formulario DIGIPRO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXJ7W24BC8;
+				INFOPLIST_FILE = "Formulario DIGIPRO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gustavogutierrez.Formulario-DIGIPRO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C928A045258F2F23001B39A2 /* Build configuration list for PBXProject "Formulario DIGIPRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928A05C258F2F24001B39A2 /* Debug */,
+				C928A05D258F2F24001B39A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C928A05E258F2F24001B39A2 /* Build configuration list for PBXNativeTarget "Formulario DIGIPRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928A05F258F2F24001B39A2 /* Debug */,
+				C928A060258F2F24001B39A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C928A042258F2F23001B39A2 /* Project object */;
+}
